@@ -1,0 +1,21 @@
+{
+  "name": "laaleh",
+  "version": "1.0.0",
+  "description": "clothing brand",
+  "main": "index.html",
+  "type": "commonjs",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "                                                                                            "
+  },
+  "keywords": [],
+  "author": "ahmer",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^6.20.0",
+    "express": "^4.19.2"
+  }
+}
