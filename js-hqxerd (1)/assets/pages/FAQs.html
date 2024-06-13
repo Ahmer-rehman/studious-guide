@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Faq.css">
+    <title>FAQ</title>
+</head>
+<header class="header">
+    <!-- Ribbon for displaying promotional messages -->
+    <div class="ribbon">
+      <span> Free Shipping on all orders within Pakistan</span>
+    </div>
+  
+    <!-- Bar for displaying contact information, currency selection, and search functionality -->
+    <div class="bar">
+      <!-- Contact information -->
+      <span class="whatsapp">For any queries whatsapp at ph# 0092xxxxxxxxxxxxxxxxx</span>
+  
+      <!-- Currency selection dropdown -->
+      <select id="currency" name="currency" onchange="handleCurrencyChange()">
+        <option value="PKR">PKR</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+  
+      <!-- Search functionality -->
+      <div class="InputContainer">
+        <!-- Search input field -->
+        <input type="text" name="text" class="input" id="input" placeholder="Search" />
+  
+        <!-- Search icon -->
+        <label for="input" class="labelforsearch">
+          <svg viewBox="0 0 512 512" class="searchIcon">
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            ></path>
+          </svg>
+        </label>
+  
+        <!-- Search input border -->
+        <div class="border"></div>
+      </div>
+    </div>
+  
+    <!-- Bar 2 for displaying the website logo and shopping cart -->
+    <div class="bar-2">
+      <!-- Website logo -->
+      <div class="logo">
+        <span class="heading">Laaleh</span>
+        <!-- <img src="./assets/images/logo.png" alt=""> -->
+      </div>
+  
+      <!-- Shopping cart -->
+      <div class="cart">
+        <!-- Shopping cart logo -->
+        <div class="cart-logo">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 30 30">
+            <g>
+              <g>
+                <path d="M20,6V5c0-2.761-2.239-5-5-5s-5,2.239-5,5v1H4v24h22V6H20z M12,5c0-1.657,1.343-3,3-3s3,1.343,3,3v1h-6V5z M24,28H6V8h4v3    h2V8h6v3h2V8h4V28z" />
+              </g>
+            </g>
+          </svg>
+        </div>
+  
+        <!-- Shopping cart text -->
+        <div class="cart-text">Shopping Cart</div>
+  
+        <!-- Shopping cart item count -->
+        <div class="cart-count">0</div>
+      </div>
+    </div>
+  
+    <!-- Bar 3 for additional navigation or content -->
+    <div class="bar-3">
+        <div class="navlinks">
+         <a href="#">FESTIVE</a>
+         <a href="#">DUPATTA</a>
+         <a href="#">NEW ARRIVALS</a>
+         <a href="#">CASUALS</a>
+         <a href="#">Shop</a>
+         <a href="#">Summer Sale</a>
+     </div>
+ </div>
+  </header>
+<body>
+    <h2>Frequently Asked Questions</h2>
+    <button class="accordion">What is codingtorque.com?</button>
+    <div class="panel">
+        <p>Coding Torque (codingtorque.com) is a free platform to learn coding for free by making amazing projects. Here
+            we share source code of projects that you can copy or keep on secondary screen and type yourself by looking
+            into it.</p>
+    </div>
+
+    <button class="accordion">How can I downlaod your app?</button>
+    <div class="panel">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus
+            repellat magni!</p>
+    </div>
+
+    <button class="accordion">How can I buy your ebook?</button>
+    <div class="panel">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores delectus
+            repellat magni!</p>
+    </div>
+</body>
+
+</html>
